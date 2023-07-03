@@ -1,21 +1,19 @@
-# from http://jekyllrb.com/docs/continuous-integration/
-sudo: false
 language: ruby
-cache: bundler
 rvm:
-- 2.4.2
+  - 2.4.1
 
-install:
-  # Install Jekyll and dependencies
-  - bundle install
-
-script: jekyll build
-
-# branch whitelist, only for GitHub Pages
-branches:
-  only:
-  - gh-pages     # test the gh-pages branch
+# Assume bundler is being used, therefore
+# the `install` step will run `bundle install` by default.
+script: ./bin/cibuild
 
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+
+sudo: false # route your build to the container-based infrastructure for a faster build
+
+cache: bundler # caching bundler gem packages will speed up build
+
+# Optional: disable email notifications about the outcome of your builds
+notifications:
+  email: false
