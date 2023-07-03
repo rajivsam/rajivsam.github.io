@@ -25,7 +25,7 @@ I am a data scientist. Briefly, here is a career summary:
   * My research for my PhD focussed on the problems encountered while working and that both frustrated me as well as engrossed me.
   * Starting a PhD at 43 must sound crazy (and it sorta is) but must give you a sense of how much I enjoy data related work and research. I have a different background and an unconventional path to ML work, but I do think my experience in developing enterprise grade software for a diverse set of domains gives me a unique perspective in ML research for enterprise applications. If you are a researcher and you think we can collaborate, I would be delighted to hear from you. This is one of my motivations for putting this page up.
   * Most recently, my work has been focussed on graph machine learning and building machine learning task abstractions for performing graph machine learning on a machine learning platform. I lead the machine learning platform engineering team (Head of Machine Learning Plaform Engineering) at [ArangoDB](www.arangodb.com). 
-  * I am available for remote consulting data science work starting August 1, 2023. Please see  the work section of this site for the kind of projects that are a good fit for my skills.
+  * I am available for remote data science consulting work starting August 1, 2023. Please see  the work section of this site for the kind of projects that are a good fit for my skills.
   * Disclaimer: All views expressed in these pages are my own.
 
 
