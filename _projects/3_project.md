@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Collaboration Template
-description: 
+title: Collaboration
+description: collaboration template 
 img: assets/img/consulting.png
 importance: 3
 category: work
