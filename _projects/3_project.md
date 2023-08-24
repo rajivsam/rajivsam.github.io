@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Collaboration
+title: Collaborate
 description: collaboration template 
 img: assets/img/consulting.png
 importance: 3
