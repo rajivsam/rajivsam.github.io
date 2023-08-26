@@ -115,7 +115,7 @@ ticket resolution times for each group. This can help them get at making
 reliable estimates for their customers.
 
 Once the challenges and issues have been identified, your team can then
-implement strategies to address these issues. The next quarter arrives.
+implement strategies to address these issues. The next quarter comes around.
 You now use the tool to assess the effectiveness of the changes you have
 implemented. Much of machine learning and analytic solutions have this
 repetitive nature. In fact, I am working on a solution to leverage and
