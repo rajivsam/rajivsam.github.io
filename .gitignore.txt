@@ -1,6 +1,0 @@
-_site
-.sass
-.jekyll
-.jekyll-
-.bundle
-vendor
