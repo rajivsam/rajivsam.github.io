@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://rajivsam.github.io/sitemap.xml
