@@ -2,7 +2,7 @@
 title: "Rajiv Sambasivan"
 about:
   template: jolla
-  image: profile.jpg
+  image: rajiv-hs.jpg
   links:
     - icon: twitter
       text: twitter
@@ -11,7 +11,6 @@ about:
       text: Github
       href: https://github.com
 ---
-![](rajiv-hs.jpg){fig-align="center" width=15% height=15%}
 
 ::: {style="text-align: justify"}
 
