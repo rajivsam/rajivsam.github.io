@@ -118,6 +118,11 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
   </div>
 </header><main class="content" id="quarto-document-content">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="rajiv-hs.jpg" class="quarto-figure quarto-figure-center figure-img" style="width:15.0%;height:15.0%"></p>
+</figure>
+</div>
 <div style="text-align: justify">
 <p>Hi, I am Rajiv Sambasivan. I am a seasoned data scientist with over 25 years of professional experience. I have developed data-centric software applications for the retail, financial services, transportation, government, and software tools (graph databases) domains. I spent the first ten years of my career in software application development for scheduling and capacity management. I spent the next fifteen years in data science, working on applications that performed information retrieval, data mining, and discrete optimization. By way of formal training I have a PhD in machine learning from the Chennai Mathematical Institute.</p>
 </div>
@@ -220,7 +225,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/rajivsam\.github\.io\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
