@@ -1,5 +1,4 @@
 ---
 title: "About"
 ---
-
-About this site
+This a personal website and is work in progress.

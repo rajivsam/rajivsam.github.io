@@ -4,12 +4,12 @@ about:
   template: jolla
   image: rajiv-hs.jpg
   links:
-    - icon: twitter
-      text: twitter
-      href: https://twitter.com
+    - icon: linkedin
+      text: linkedin
+      href: https://www.linkedin.com/in/rajiv-sambasivan/
     - icon: github
       text: Github
-      href: https://github.com
+      href: https://github.com/rajivsam
 ---
 
 ::: {style="text-align: justify"}
