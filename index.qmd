@@ -10,7 +10,9 @@ about:
     - icon: github
       text: Github
       href: https://github.com/rajivsam
-      
+    - icon: goolgescholar
+      text: google scholar
+      href: https://scholar.google.com/citations?user=96db8S4AAAAJ&hl=en
 ---
 
 ::: {style="text-align: justify"}
