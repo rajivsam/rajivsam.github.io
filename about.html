@@ -33,7 +33,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -71,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -107,36 +106,48 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-about-jolla">
+ <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">About</h1>
 </div>
-
-
-
 <div class="quarto-title-meta">
-
-    
-  
-    
   </div>
-  
+</header><main class="content" id="quarto-document-content">
+<p><img src="logonav_resized.png" class="img-fluid"></p>
+<div style="text-align: justify">
+<p>I spent a long time developing software for business tasks in various domains, and I have a strong interest in the intersection of data science and software engineering. I am available for remote consulting work. I can work with your data science team on the following tasks:</p>
+<ul>
+<li>Applying data science to understand and extract insights from operational data.</li>
+<li>Working with your data science team on framing business problems in terms of data science and machine learning. Translating business KPIs into model metrics and vice versa takes experience and practice. I have worked with data science teams in the past to help them with this translation.</li>
+<li>Summarizing and visualizing data science results for business stakeholders. This again requires experience and practice.</li>
+<li>Model and complexity management. What is the right level of model complexity for a given business problem? How do we refine and improve models over time? Doing this with a <a href="https://en.wikipedia.org/wiki/Satisficing">satisficing perspective</a> takes experience and practice.</li>
+<li>Summarizing your data assets to inform the problems that you are interested in solving. Organizations collect vast quantitites of data over time. Summarizing these data assets so that key insights make their way into model iterations is a continuos process. There have been many developments in this area in the past decade (see <a href="https://www.youtube.com/watch?v=byJ2zujIPh8&amp;list=PLgKuh-lKre13d6vkwc3NrEh2YguAe-XLV">this playlist</a> ). However, picking the right approach for your data assets and business problem is not trivial. I can help you with this.</li>
+<li>Working with your optimization team on interfacing machine learning and statistical models with optimization models. This is a very interesting area of research and has gained traction in the past decade. Many optimization and planning problems are stochastic in nature. They have to take uncertainty into account. This uncertainty can be modeled with machine learning and statistical models. For example, the weather can be a stochastic variable in a planning problem. If you are an agricultural company, you may want to use machine learning models to predict the weather. You can then use these predictions in your optimization models. If you are a retailer with perishable goods, you may want to use machine learning models to predict demand. You can then use these predictions to plan your inventory. Stochastic optimization is not esoteric anymore, thanks to the quality of optimization tools that are available today.</li>
+</ul>
+</div>
 
 
-</header>
-
-
-<p>This a personal website and is work in progress.</p>
-
-
-
-</main> <!-- /main -->
+</main> 
+  <hr class="about-sep">
+   <div class="about-links">
+  <a href="https://www.linkedin.com/company/rinse-and-repeat-data-science" class="about-link" rel="" target="">
+    <i class="bi bi-linkedin"></i>
+     <span class="about-link-text">LinkedIn</span>
+  </a>
+  <a href="https://www.r2-ds.com" class="about-link" rel="" target="">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">website</span>
+  </a>
+  <a href="https://scholar.google.com/citations?user=96db8S4AAAAJ&amp;hl=en" class="about-link" rel="" target="">
+    <i class="bi bi-goolgescholar"></i>
+     <span class="about-link-text">google scholar</span>
+  </a>
+</div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -157,13 +168,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
