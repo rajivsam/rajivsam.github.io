@@ -13,6 +13,9 @@ about:
     - icon: goolgescholar
       text: google scholar
       href: https://scholar.google.com/citations?user=96db8S4AAAAJ&hl=en
+    - icon: penfill
+      text: personal blog
+      href: https://rajivsam.github.io/r2ds-blog/
 ---
 
 ::: {style="text-align: justify"}
